@@ -20,18 +20,18 @@ PhotoLingo/
 │
 ├── dataset/
 │   ├── training/
-│   │   ├── Arabic/
-│   │   ├── Hindi/
-│   │   ├── Latin/
-│   │   ├── Japanese/
-│   │   └── Korean/
+│   │   ├── arabic/
+│   │   ├── hindi/
+│   │   ├── latin/
+│   │   ├── japanese/
+│   │   └── korean/
 │   │
 │   └── testing/
-│       ├── Arabic/
-│       ├── Hindi/
-│       ├── Latin/
-│       ├── Japanese/
-│       └── Korean/
+│       ├── arabic/
+│       ├── hindi/
+│       ├── latin/
+│       ├── japanese/
+│       └── korean/
 │
 ├── documents/           # Project proposals, presentations, reports, etc.
 │
