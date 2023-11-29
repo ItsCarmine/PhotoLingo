@@ -2,7 +2,7 @@
  ECE 539 Fall 2023 Project at UW-Madison: CNN-based Language Identification from Images
 
 # Project Overview
-This project, developed for ECE 539 at the University of Wisconsin-Madison during the Fall 2023 semester, employs Convolutional Neural Networks (CNNs) to identify languages from images containing text. It focuses on five single-script languages: Arabic, Hindi, English (Latin script), Japanese, and Korean.
+This project, developed for ECE 539 at the University of Wisconsin-Madison during the Fall 2023 semester, employs Convolutional Neural Networks (CNNs) to identify languages from images containing text of a single-script. It focuses on five languages: Arabic, Hindi, English (Latin script), Japanese, and Korean.
 
 Team Members:
 - Anais Corona Perez (CoronaPerez@wisc.edu)
@@ -14,7 +14,7 @@ Team Members:
 Our project utilizes the dataset from the ICDAR 2019 Robust Reading Challenge on Multilingual Scene Text Detection and Recognition, comprising 80,000 high resolution images of cropped text. The dataset is diverse, covering languages such as Latin, Japanese, Arabic, Korean and Hindi, with accompanying ground truth labels for each image. The dataset can be found [here](https://rrc.cvc.uab.es/?ch=15&com=downloads), but an account is required to view & download the data. You do not need all the data found on the website! This project only utilized the Task 2 dataset.
 
 # Directory Organization
-**If you wish to run the model on a local machine, your data must be structured like the Dataset folder seen below.** Please see [Using Utilities](#utilities) instructions below to setup the dataset directory. We also provide info on what you can expect to find in other folders.
+**If you wish to run the model on a local machine, your data must be structured like the `dataset` folder seen below.** Please see [Using Utilities](#utilities) instructions to setup the dataset directory. We also provide info on what you can expect to find in other folders.
 ```
 PhotoLingo/
 │
