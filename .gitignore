@@ -1,2 +1,4 @@
 dataset/*
 logs/*
+.DS_Store
+.idea
