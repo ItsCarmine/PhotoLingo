@@ -16,7 +16,7 @@ def remove_unwanted_images(gt_file_path, image_folders_paths):
     image_folders_paths (list): List of paths to the image folders.
     """
     # Read gt.txt content
-    with open(gt_file_path, 'r') as file:
+    with open(gt_file_path, 'r', encoding="utf-8") as file:
         lines = file.readlines()
 
     images_to_remove = set()
@@ -40,7 +40,7 @@ def remove_unwanted_images(gt_file_path, image_folders_paths):
                 print(f"File {image_path} not found in {folder_path}")
 
     # Write the updated content back to gt.txt
-    with open(gt_file_path, 'w') as file:
+    with open(gt_file_path, 'w', encoding="utf-8") as file:
         file.writelines(updated_lines)
 
 
@@ -83,7 +83,7 @@ def read_language_mapping(gt_file_path):
     dict: A dictionary mapping image filenames to their respective languages.
     """
     mapping = {}
-    with open(gt_file_path, 'r') as file:
+    with open(gt_file_path, 'r', encoding="utf-8") as file:
         for line in file:
             parts = line.strip().split(',', 2)
             if len(parts) == 3:
