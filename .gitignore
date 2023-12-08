@@ -2,4 +2,4 @@ dataset/*
 logs/*
 .DS_Store
 .idea
-notebooks/predictions.txt
+predictions/predictions_ResNet18.txt
